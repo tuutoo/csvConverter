@@ -1,0 +1,134 @@
+[{
+  "Name": "Ticket 8101339276 - 基布返工进行中应该改成蓝色粗体，而不是绿色粗体，帮忙修改一下，谢谢",
+  "EventDate": "2021-06-09T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": "重算优先级的时候，其实会重算。但有个时间差。\nSolution:\n在异常Ticket保存的时候，如果是Press的00或者40工单的，单个工单重新更新基布状态。\n注意：40需要找到00，再更新。"
+}, {
+  "Name": "Ticket 8101335495 - 00 with imported base are not shown on Needling Kanban, and cannot start needling.",
+  "EventDate": "2021-06-09T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": ""
+}, {
+  "Name": "Roll Quotation",
+  "EventDate": "2021-06-09T00:00:00",
+  "Project": "KUNS0170 DB Migration",
+  "Category": "Test",
+  "Status": "Closed",
+  "Remarks": ""
+}, {
+  "Name": "New VM Machine",
+  "EventDate": "2021-08-04T00:00:00",
+  "Project": "JDE",
+  "Category": "Test",
+  "Status": "In Progress",
+  "Remarks": "2021-08-04: VPN connection and TeamViewer OK.\nBut web browser has some issues, need ZW further check."
+}, {
+  "Name": "Rolls Quotation Development",
+  "EventDate": "2021-07-13T00:00:00",
+  "Project": "Rolls Quotation",
+  "Category": "Development",
+  "Status": "In Progress",
+  "Remarks": "2021-07-30: Customer changed deployed, Cathy to working on Terms integration.\n2021-07-22: Customer Data Clean up in progress."
+}, {
+  "Name": "KUNS0170 DB Migration",
+  "EventDate": "2021-07-08T00:00:00",
+  "Project": "KUNS0170 DB Migration",
+  "Category": "Test",
+  "Status": "Test",
+  "Remarks": "2021-07-17: everything fine from my end, but failed on WF & OEE. WF & OEE need further investigation, and deploy again.\nJul 17, 10am, SA will deploy, and we need a test"
+}, {
+  "Name": "Test & Deploy ImportBase Logic",
+  "EventDate": "2021-07-08T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Test",
+  "Status": "Closed",
+  "Remarks": "2021-07-08: Deployed"
+}, {
+  "Name": "Issue Development",
+  "EventDate": "2021-06-25T00:00:00",
+  "Project": "JDE",
+  "Category": "Development",
+  "Status": "In Progress",
+  "Remarks": "2021-08-04: #27879 and #27622 WIP\n2021-07-22: 2 new issues waiting for Dev."
+}, {
+  "Name": "JDE Alter Tool for other Regions",
+  "EventDate": "2021-06-25T00:00:00",
+  "Project": "JDE",
+  "Category": "Development",
+  "Status": "In Progress",
+  "Remarks": "Updated Quartz.UI to allow post with data\nWaiting VPEZ data add to IT Elements"
+}, {
+  "Name": "New WO Query",
+  "EventDate": "2021-06-09T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": "Memory Issue seems OK now"
+}, {
+  "Name": "#26579 ",
+  "EventDate": "2021-06-07T00:00:00",
+  "Project": "JDE",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": "Add end use, sold to customer, related SI number in new variance tool for Rolls"
+}, {
+  "Name": "New Home page",
+  "EventDate": "2021-05-26T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "In Progress",
+  "Remarks": "2021-08-04: Max asked to hold, checking WC merge logic.\n2021-07-22: Optimize SVG drawing, need to confirm some info with MAX.\n2021-06-29: Had a meeting and collected requirements\nWaiting for users new requirements"
+}, {
+  "Name": "VisualPlanning",
+  "EventDate": "2021-07-01T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Done",
+  "Remarks": "2021-08-05: IsStockMR logic - Testing\nSPD filter for new wo query - Deployed"
+}, {
+  "Name": "KUNX0165 SSRS Report Test",
+  "EventDate": "2021-06-09T00:00:00",
+  "Project": "KUNS0170 DB Migration",
+  "Category": "Test",
+  "Status": "Closed",
+  "Remarks": ""
+}, {
+  "Name": "Occra",
+  "EventDate": "2021-05-20T00:00:00",
+  "Project": "KUNS0170 DB Migration",
+  "Category": "Test",
+  "Status": "Closed",
+  "Remarks": ""
+}, {
+  "Name": "IT Elements",
+  "EventDate": "2021-05-22T00:00:00",
+  "Project": "KUNS0170 DB Migration",
+  "Category": "Test",
+  "Status": "Closed",
+  "Remarks": ""
+}, {
+  "Name": "JDE Inactive User Alert tool",
+  "EventDate": "2021-05-17T00:00:00",
+  "Project": "JDE",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": "Todo: Documents / Git upload"
+}, {
+  "Name": "Ticket: 8101339253 - F04的11926692机器上点不了结束，但已经到检验那里了，检验那里也点不了开始",
+  "EventDate": "2021-05-24T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": "Root Cause:\n工单在工单生产已经结束，但是在工单排程页面下发的时候，状态被重写为已分配。\nSolution:\n[bugfix 8257eca0] Fix Ticket: 8101339253, routing status is overwritten by scheduling"
+}, {
+  "Name": "Batt Planning",
+  "EventDate": "2021-05-18T00:00:00",
+  "Project": "Visual Planning Tools",
+  "Category": "Development",
+  "Status": "Closed",
+  "Remarks": ""
+}]

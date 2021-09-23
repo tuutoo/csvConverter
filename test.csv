@@ -1,0 +1,35 @@
+﻿Name,Date,Project,Category,Status,Remarks
+Ticket 8101339276 - 基布返工进行中应该改成蓝色粗体，而不是绿色粗体，帮忙修改一下，谢谢,2021/06/09,Visual Planning Tools,Development,Closed,"重算优先级的时候，其实会重算。但有个时间差。
+Solution:
+在异常Ticket保存的时候，如果是Press的00或者40工单的，单个工单重新更新基布状态。
+注意：40需要找到00，再更新。"
+"Ticket 8101335495 - 00 with imported base are not shown on Needling Kanban, and cannot start needling.",2021/06/09,Visual Planning Tools,Development,Closed,
+Roll Quotation,2021/06/09,KUNS0170 DB Migration,Test,Closed,
+New VM Machine,2021/08/04,JDE,Test,In Progress,"2021-08-04: VPN connection and TeamViewer OK.
+But web browser has some issues, need ZW further check."
+Rolls Quotation Development,2021/07/13,Rolls Quotation,Development,In Progress,"2021-07-30: Customer changed deployed, Cathy to working on Terms integration.
+2021-07-22: Customer Data Clean up in progress."
+KUNS0170 DB Migration,2021/07/08,KUNS0170 DB Migration,Test,Test,"2021-07-17: everything fine from my end, but failed on WF & OEE. WF & OEE need further investigation, and deploy again.
+Jul 17, 10am, SA will deploy, and we need a test"
+Test & Deploy ImportBase Logic,2021/07/08,Visual Planning Tools,Test,Closed,2021-07-08: Deployed
+Issue Development,2021/06/25,JDE,Development,In Progress,"2021-08-04: #27879 and #27622 WIP
+2021-07-22: 2 new issues waiting for Dev."
+JDE Alter Tool for other Regions,2021/06/25,JDE,Development,In Progress,"Updated Quartz.UI to allow post with data
+Waiting VPEZ data add to IT Elements"
+New WO Query,2021/06/09,Visual Planning Tools,Development,Closed,Memory Issue seems OK now
+"#26579 ",2021/06/07,JDE,Development,Closed,"Add end use, sold to customer, related SI number in new variance tool for Rolls"
+New Home page,2021/05/26,Visual Planning Tools,Development,In Progress,"2021-08-04: Max asked to hold, checking WC merge logic.
+2021-07-22: Optimize SVG drawing, need to confirm some info with MAX.
+2021-06-29: Had a meeting and collected requirements
+Waiting for users new requirements"
+VisualPlanning,2021/07/01,Visual Planning Tools,Development,Done,"2021-08-05: IsStockMR logic - Testing
+SPD filter for new wo query - Deployed"
+KUNX0165 SSRS Report Test,2021/06/09,KUNS0170 DB Migration,Test,Closed,
+Occra,2021/05/20,KUNS0170 DB Migration,Test,Closed,
+IT Elements,2021/05/22,KUNS0170 DB Migration,Test,Closed,
+JDE Inactive User Alert tool,2021/05/17,JDE,Development,Closed,Todo: Documents / Git upload
+Ticket: 8101339253 - F04的11926692机器上点不了结束，但已经到检验那里了，检验那里也点不了开始,2021/05/24,Visual Planning Tools,Development,Closed,"Root Cause:
+工单在工单生产已经结束，但是在工单排程页面下发的时候，状态被重写为已分配。
+Solution:
+[bugfix 8257eca0] Fix Ticket: 8101339253, routing status is overwritten by scheduling"
+Batt Planning,2021/05/18,Visual Planning Tools,Development,Closed,
